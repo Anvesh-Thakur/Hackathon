@@ -1,0 +1,36 @@
+.donate{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100%;
+}
+
+.donate label{
+    font-size: 38px;
+}
+
+.donate input{
+    height: 40px;
+    width: 400px;
+    background-color: #1c1d1d;
+    border: 0px;
+    border-bottom: 1px solid rgba(223, 223, 223, 0.22);
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.btn-donate{
+    height: 61px;
+    width: 280px;
+    position: absolute;
+    top: 75%;
+    left: 40%;
+    background: linear-gradient(91.66deg, #04045C -59.19%, #B555DA 5.02%, #E5C4BD 72.06%, #656ED4 127.62%);
+    font-family: "Poppins", sans-serif;
+    clip-path: polygon(0 0, 85% 0, 100% 15%, 100% 100%, 15% 100%, 0 87%); 
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
+    border: 0px;
+}

@@ -1,0 +1,54 @@
+.LoginForm{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.LoginForm select{
+    width: 120px;
+    font-size: 18px;
+    background-color: #1c1d1d;
+    border: 0px;
+    border-bottom: 1px solid rgba(223, 223, 223, 0.22);
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+}
+
+.LoginForm label{
+    font-size: 20px;
+}
+
+.LoginForm input{
+    height: 40px;
+    width: 400px;
+    margin-bottom: 20px;
+    border: 0px;
+    border-bottom: 1px solid rgba(223, 223, 223, 0.22);
+    background-color: #1c1d1d;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.LoginForm button{
+    cursor: pointer;
+    border: 0px;
+    height: 61px;
+    width: 280px;
+    align-self: flex-start;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    clip-path: polygon(0 0, 85% 0, 100% 15%, 100% 100%, 15% 100%, 0 87%);    
+    margin-bottom: 30px;
+    background: linear-gradient(91.66deg, #04045C -59.19%, #B555DA 5.02%, #E5C4BD 72.06%, #656ED4 127.62%);
+}
+
+.LoginForm input[type=text]:focus{
+    border: 0px;
+    border-bottom: 1px solid rgba(223, 223, 223, 0.22);
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
